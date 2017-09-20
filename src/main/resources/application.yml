@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    organisms:
+      path: /organisms/**
+      url: https://organism-ws.herokuapp.com

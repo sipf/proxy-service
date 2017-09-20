@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: proxy
+  profiles:
+    active: development
+  cloud:
+    config:
+      uri: https://supervisor:supervisor@config-service-ws.herokuapp.com
