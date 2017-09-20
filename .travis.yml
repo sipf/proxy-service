@@ -1,0 +1,9 @@
+dist: trusty
+sudo: required
+
+jdk:
+ - oraclejdk8
+
+script:
+  - mvn package
+
